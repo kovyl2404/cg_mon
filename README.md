@@ -2,7 +2,7 @@ cg_mon
 ======
 
 Simple application to extend osmon functionality when using cgroups.
-Now it only supports reading memory cgroup metrics and can't automatically detect where cgroups mounted.
+Now it only supports reading memory and cpuacct cgroup metrics and can't automatically detect where cgroups mounted.
 
 Usage example.
 --------------
@@ -19,10 +19,12 @@ ok
 1941913600
 6> cg_mem_sup:usage().
 4880506880
+7> cg_cpu_sup:usage().
+8526844361646
 ```
 
 
 To be done:
-1. Add support for another cgroups such as cpuacct, blkio and so on.
+1. Add support for another cgroups such as blkio.
 2. Add event notifications (for example, about excessing some limit of memory usage).
 3. Add documentation.

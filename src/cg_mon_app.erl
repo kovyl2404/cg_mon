@@ -130,7 +130,7 @@ cgroup_discovery_file() ->
     end.
 
 handler_modules() ->
-    [cg_mem_sup].
+    [cg_mem_sup, cg_cpu_sup].
 
 
 %%%===================================================================
