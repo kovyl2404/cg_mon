@@ -1,9 +1,6 @@
 -module(cg_mon_reader).
 -author("Viacheslav V. Kovalev").
 
--define(PROVIDED_RESOURCE, memory).
--define(KEY_VALUE_SOURCES, ["memory.stat"]).
--define(SINGLE_VALUE_SOURCES, []).
 
 %% API
 -export([
