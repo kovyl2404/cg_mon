@@ -1,0 +1,7 @@
+cache 1
+rss 2
+mapped_file 4
+pgpgin 5
+pgpgout 6
+pgfault 7
+pgmajfault 8

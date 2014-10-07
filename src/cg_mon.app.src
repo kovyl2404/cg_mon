@@ -1,0 +1,14 @@
+{application, cg_mon,
+ [
+  {description, "Reads cgroup's metrics"},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {applications, [
+    kernel,
+    stdlib
+  ]},
+  {mod, { cg_mon_app, []}},
+  {env, [
+      {update_interval, 1000}
+  ]}
+ ]}.

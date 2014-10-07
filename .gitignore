@@ -1,0 +1,8 @@
+ebin/
+.idea/
+.eunit/
+*.beam
+*.iml
+deps/
+logs/
+.rebar/
